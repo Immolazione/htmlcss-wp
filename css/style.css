@@ -36,3 +36,32 @@ header a {
     text-decoration: none;
     color: #878787;
 }
+
+#spotlight {
+    margin-top: 40px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)), url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.spot-description {
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
+    width: 50%;
+}
+
+.spot-description > h1 {
+    font-weight: 100;
+    line-height: 1.9rem;
+}
+
+.spot-description > h4 {
+    font-weight: 100;
+}
