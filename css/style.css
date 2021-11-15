@@ -63,8 +63,8 @@ header a {
     line-height: 30px;
 }
 
-#skills {
-    margin: 30px 0;
+.skills-title {
+    margin: 50px 0;
 }
 
 .subtitle {
@@ -74,4 +74,24 @@ header a {
 
 #skills h2 {
     font-size: 30px;
+}
+
+#grid {
+    height: 1000px;
+}
+
+.col {
+    height: 800px;
+    float: left;
+}
+
+.col-side {
+    width: 25%;
+    background-color: red;
+}
+
+.col-center {
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    background-color: green;
 }
