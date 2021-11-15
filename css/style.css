@@ -1,3 +1,5 @@
+/* GENERICS */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,4 +16,23 @@
     clear: both;
     content: "";
     display: table;
+}
+
+/* UTILITIES */
+
+header > img {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+header li {
+    display: inline-block;
+    font-size: 1.0rem;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #878787;
 }
