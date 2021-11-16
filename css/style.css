@@ -116,6 +116,7 @@ header a {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 footer {
